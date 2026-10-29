@@ -5,20 +5,17 @@ void setup(){
 
 void loop(){
 
-    digitalWrite(0, HIGH);
-    digitalWrite(1, LOW);
-    delay(500);
-
-    digitalWrite(0,LOW);
+    digitalWrite(0, LOW);
     digitalWrite(1, LOW);
     delay(500);
 
     digitalWrite(0,HIGH);
-    digitalWrite(1,LOW);
+    delay(500);
+
+    digitalWrite(0,LOW);
     delay(500);
     
     digitalWrite(0,HIGH);
-    digitalWrite(1,HIGH);
     delay(500);
 
     digitalWrite(0,LOW);
@@ -26,15 +23,12 @@ void loop(){
     delay(500);
 
     digitalWrite(0,HIGH);
-    digitalWrite(1,HIGH);
     delay(500);
 
     digitalWrite(0,LOW);
-    digitalWrite(1,HIGH);
     delay(500);
 
     digitalWrite(0,HIGH);
-    digitalWrite(1,LOW);
     delay(500);
 
 }
